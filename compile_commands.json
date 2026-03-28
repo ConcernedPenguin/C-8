@@ -1,0 +1,102 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iinclude",
+      "-I/usr/include/SDL2",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/mnt/Shreeyansh/LowLevelShit/chip8",
+    "file": "/mnt/Shreeyansh/LowLevelShit/chip8/src/main.c",
+    "output": "/mnt/Shreeyansh/LowLevelShit/chip8/src/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iinclude",
+      "-I/usr/include/SDL2",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "src/chip8.o",
+      "src/chip8.c"
+    ],
+    "directory": "/mnt/Shreeyansh/LowLevelShit/chip8",
+    "file": "/mnt/Shreeyansh/LowLevelShit/chip8/src/chip8.c",
+    "output": "/mnt/Shreeyansh/LowLevelShit/chip8/src/chip8.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iinclude",
+      "-I/usr/include/SDL2",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "src/cpu.o",
+      "src/cpu.c"
+    ],
+    "directory": "/mnt/Shreeyansh/LowLevelShit/chip8",
+    "file": "/mnt/Shreeyansh/LowLevelShit/chip8/src/cpu.c",
+    "output": "/mnt/Shreeyansh/LowLevelShit/chip8/src/cpu.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iinclude",
+      "-I/usr/include/SDL2",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "src/display.o",
+      "src/display.c"
+    ],
+    "directory": "/mnt/Shreeyansh/LowLevelShit/chip8",
+    "file": "/mnt/Shreeyansh/LowLevelShit/chip8/src/display.c",
+    "output": "/mnt/Shreeyansh/LowLevelShit/chip8/src/display.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iinclude",
+      "-I/usr/include/SDL2",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "src/input.o",
+      "src/input.c"
+    ],
+    "directory": "/mnt/Shreeyansh/LowLevelShit/chip8",
+    "file": "/mnt/Shreeyansh/LowLevelShit/chip8/src/input.c",
+    "output": "/mnt/Shreeyansh/LowLevelShit/chip8/src/input.o"
+  }
+]
